@@ -6,9 +6,9 @@ Welcome to my Portfolio! My name is Florian Gerhardt and [this](https://github.c
 
 This was a project from Univesity where we tried to recognize the genre of a given music files. It was important to us that the user has as much freedom as possible and hence the user can design the structure of the analysing algorithm in three steps
 
-1. select all the features from the feature options (see below) you wish to be taken into account  
+1. select all the features from a list of feature options you wish to be taken into account  
 2. select an arbitrary amount of base learners (you have to choose a machine learning method for each one)
-3. select an ensemble learner from the ensemble learner list (see below)
+3. select an ensemble learner from a list of given ensemble learners
 
 We used the GTZAN dataset with 10 genres with 100 files each. Each files is 30s long.
 
