@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+Welcome to my Portfolio! My name is Florian Gerhardt and [this](https://github.com/MrGandalv) is my GitHub page.
 
-You can use the [editor on GitHub](https://github.com/MrGandalv/Portfolio/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+# [Project M.U.G.G.E. - Mostly Unfinished Genre Grading Engine](https://github.com/MrGandalv/MUGGE)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Description
 
-### Markdown
+This was a project from Univesity where we tried to recognize the genre of a given music files. It was important to us that the user has as much freedom as possible and hence the user can design the structure of the analysing algorithm in three steps
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+1. select all the features from the feature options (see below) you wish to be taken into account  
+2. select an arbitrary amount of base learners (you have to choose a machine learning method for each one)
+3. select an ensemble learner from the ensemble learner list (see below)
 
-```markdown
-Syntax highlighted code block
+We used the GTZAN dataset with 10 genres with 100 files each. Each files is 30s long.
 
-# Header 1
-## Header 2
-### Header 3
+ ## Results
+ 
+- **best ensemble learner** was the bagging learner (given by sklearn) with an accuracy of 73.5 % (last stable version):
 
-- Bulleted
-- List
+![](https://github.com/MrGandalv/MUGGE/blob/master/doc/Bagging_Decision.png)
 
-1. Numbered
-2. List
+- **best base learner** was the MLP Neural Network (given by sklearn) with an accuracy of 72.1 % (last stable version):
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MrGandalv/Portfolio/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+![](https://github.com/MrGandalv/MUGGE/blob/master/src/barchart_accuracy_whole_songs.png)
