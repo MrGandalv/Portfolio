@@ -16,8 +16,8 @@ We used the GTZAN dataset with 10 genres with 100 files each. Each files is 30s 
  
 - **best ensemble learner** was the bagging learner (given by sklearn) with an accuracy of 73.5 % (last stable version):
 
-![](https://github.com/MrGandalv/Portfolio/blob/master/images/Bagging_Decision.png)
+![](/images/Bagging_Decision.png)
 
 - **best base learner** was the MLP Neural Network (given by sklearn) with an accuracy of 72.1 % (last stable version):
 
-![](https://github.com/MrGandalv/Portfolio/blob/master/images/barchart_accuracy_whole_songs.png)
+![](/images/barchart_accuracy_whole_songs.png)
