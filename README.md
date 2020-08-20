@@ -12,12 +12,12 @@ This was a project from Univesity where we tried to recognize the genre of a giv
 
 We used the GTZAN dataset with 10 genres with 100 files each. Each files is 30s long.
 
- ## Results
+## Results
  
 - **best ensemble learner** was the bagging learner (given by sklearn) with an accuracy of 73.5 % (last stable version):
 
-![](https://github.com/MrGandalv/MUGGE/blob/master/doc/Bagging_Decision.png)
+![](https://github.com/MrGandalv/Portfolio/blob/master/images/Bagging_Decision.png)
 
 - **best base learner** was the MLP Neural Network (given by sklearn) with an accuracy of 72.1 % (last stable version):
 
-![](https://github.com/MrGandalv/MUGGE/blob/master/src/barchart_accuracy_whole_songs.png)
+![](https://github.com/MrGandalv/Portfolio/blob/master/images/barchart_accuracy_whole_songs.png)
